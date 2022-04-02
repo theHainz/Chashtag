@@ -1,6 +1,6 @@
 ﻿using System;
 using System.IO;
-using System.Text;
+
 
 namespace console4
 {
@@ -10,31 +10,64 @@ namespace console4
         {
             string path = ("C:\\Users\\frygus.S309.000\\Desktop\\C#\\02.04.2022\\filedir\\file.txt");
 
-            string Name;
-            string Surname;
-            int Phonenumber;
-            string Phonenumbertostring;
-          
+            Console.WriteLine("What do you want to do with the file?");
+            Console.WriteLine("You can 'writeinfile', ");
+            string answer;
+            answer = Console.ReadLine();
+
+            switch (answer)
+            {
+                case "writeinfile":
+                    writeinfile(path);
+                    break;
+            }
+        }
+
+        static void writeinfile(string path) {
+
+            string name;
+            string surname;
+            int phonenumber;
+            string phonenumbertostring;
+            
+
 
             Console.WriteLine("What's your name?");
-            Name = Console.ReadLine();
+            name = Console.ReadLine();
 
             Console.WriteLine("What's your surname?");
-            Surname = Console.ReadLine();
+            surname = Console.ReadLine();
 
             Console.WriteLine("What's your phonenumber?");
-            Phonenumbertostring = Console.ReadLine();
+            phonenumbertostring = Console.ReadLine();
 
-            Phonenumber = Convert.ToInt32(Phonenumbertostring);
+            phonenumber = Convert.ToInt32(phonenumbertostring);
+                
+            // count the line number.
+            int counter = 0;
+
+            StreamReader streamReader = new StreamReader(path);
+            while (streamReader.ReadLine() != null)
+            {
+                counter++;
+            }
+
+            streamReader.Close();
 
             if (!File.Exists(path))
             {
-                // Create a file to write to.
+
                 using (StreamWriter sw = File.CreateText(path))
                 {
-                    sw.WriteLine(Name);
-                    sw.WriteLine(Surname);
-                    sw.WriteLine(Phonenumber);
+                    sw.WriteLine($"{counter} {name} {surname} {phonenumber}");
+                }
+            }
+            else if (File.Exists(path))
+            {
+                File.Delete(path);
+                using (StreamWriter sw = File.CreateText(path))
+                {
+                    sw.WriteLine($"{counter} {name} {surname} {phonenumber}");
                 }
             }
         }
