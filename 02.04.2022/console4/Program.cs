@@ -8,7 +8,7 @@ namespace console4
     {
         static void Main(string[] args)
         {
-            string path = ("C:\\Users\\frygus.S309.000\\Desktop\\C#\\02.04.2022\\filedir\\file.txt");
+            string path = ("");
 
             Console.WriteLine("What do you want to do with the file?");
             Console.WriteLine("You can 'writeinfile', ");
