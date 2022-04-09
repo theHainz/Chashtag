@@ -1,0 +1,16 @@
+C:\Users\frygus.S309.000\Desktop\C#\09.04.2022\console5\console5\bin\Debug\net5.0\console5.exe
+C:\Users\frygus.S309.000\Desktop\C#\09.04.2022\console5\console5\bin\Debug\net5.0\console5.deps.json
+C:\Users\frygus.S309.000\Desktop\C#\09.04.2022\console5\console5\bin\Debug\net5.0\console5.runtimeconfig.json
+C:\Users\frygus.S309.000\Desktop\C#\09.04.2022\console5\console5\bin\Debug\net5.0\console5.runtimeconfig.dev.json
+C:\Users\frygus.S309.000\Desktop\C#\09.04.2022\console5\console5\bin\Debug\net5.0\console5.dll
+C:\Users\frygus.S309.000\Desktop\C#\09.04.2022\console5\console5\bin\Debug\net5.0\ref\console5.dll
+C:\Users\frygus.S309.000\Desktop\C#\09.04.2022\console5\console5\bin\Debug\net5.0\console5.pdb
+C:\Users\frygus.S309.000\Desktop\C#\09.04.2022\console5\console5\obj\Debug\net5.0\console5.csprojAssemblyReference.cache
+C:\Users\frygus.S309.000\Desktop\C#\09.04.2022\console5\console5\obj\Debug\net5.0\console5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\frygus.S309.000\Desktop\C#\09.04.2022\console5\console5\obj\Debug\net5.0\console5.AssemblyInfoInputs.cache
+C:\Users\frygus.S309.000\Desktop\C#\09.04.2022\console5\console5\obj\Debug\net5.0\console5.AssemblyInfo.cs
+C:\Users\frygus.S309.000\Desktop\C#\09.04.2022\console5\console5\obj\Debug\net5.0\console5.csproj.CoreCompileInputs.cache
+C:\Users\frygus.S309.000\Desktop\C#\09.04.2022\console5\console5\obj\Debug\net5.0\console5.dll
+C:\Users\frygus.S309.000\Desktop\C#\09.04.2022\console5\console5\obj\Debug\net5.0\ref\console5.dll
+C:\Users\frygus.S309.000\Desktop\C#\09.04.2022\console5\console5\obj\Debug\net5.0\console5.pdb
+C:\Users\frygus.S309.000\Desktop\C#\09.04.2022\console5\console5\obj\Debug\net5.0\console5.genruntimeconfig.cache
